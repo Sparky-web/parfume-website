@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Галерея</title>
+    <meta charset="UTF-8">
+    <style>
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .gallery img {
+            margin: 10px;
+            width: 250px;
+            height: 200px;
+            object-fit: cover;
+            object-position: center;
+            cursor: pointer;
+        }
+    </style>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<header>
+    <img src="logo.jpg" alt="Logo">
+    <nav>
+        <ul>
+            <li><a href="./index.html">Главная</a></li>
+            <li><a href="./table.html">Таблица</a></li>
+            <li><a href="./gallery.html">Картинная галерея</a></li>
+            <li><a href="./download.html">Скачать</a></li>
+        </ul>
+    </nav>
+</header>
+<div class="gallery">
+    <img src="image1.png" onclick="window.open(this.src)">
+    <img src="image2.png" onclick="window.open(this.src)">
+    <img src="image3.png" onclick="window.open(this.src)">
+    <img src="image4.png" onclick="window.open(this.src)">
+    <img src="image5.png" onclick="window.open(this.src)">
+    <img src="image6.png" onclick="window.open(this.src)">
+    <img src="image7.png" onclick="window.open(this.src)">
+    <img src="image8.png" onclick="window.open(this.src)">
+    <img src="image9.png" onclick="window.open(this.src)">
+    <img src="image10.png" onclick="window.open(this.src)">
+</div>
+
+</body>
+</html>
